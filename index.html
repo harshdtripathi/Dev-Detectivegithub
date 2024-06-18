@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container  ">
+
+        <div class="heading   ">
+
+
+            <div class="devd ">
+                <h2 class="dev-detect font-semibold font-mono text-blue-500 text-3xl ">DevDetective</h2>
+            </div>
+
+
+            <div class="night-mode-btn">
+                <button onclick="changebgColor()" class="mode-change text-blue-500 font-mono text-lg" type="button">
+
+                    Light
+
+
+                </button>
+                <div class="move">
+                    <img class="modeimage h-8 w-8" src="./darkmode.png" loading="eager">
+                </div>
+
+
+            </div>
+        </div>
+
+        <form class="form-container" data-searchform>
+            <input class="userform" placeholder="enter username......" data-searchinput>
+            <div class="search-btn ">
+                <button class="btn " type="submit">
+                    <img class="magnify-util rounded-2xl" src="./magnify-icon-vector-eps10-260nw-1220721013.webp  " width="20"
+                        height="20" loading="lazy">
+                </button>
+            </div>
+
+        </form>
+        <div class="main-content">
+            <div class="profile-container">
+                <div class="profile-content">
+                    <img class="user-image rounded-full " src="" loading="lazy">
+                    <div class="profile-name">
+                        <p class="userpname"></p>
+                        <a class="user-name" href=""></a>
+
+
+                    </div>
+                    <p class="join-date"></p>
+
+                </div>
+                <h3 id="profile-bio"></h3>
+
+            </div>
+            <div class="stats-container">
+                <div class="profile-stats">
+                    <p>Repo</p>
+                    <p class="repos"></p>
+
+                </div>
+                <div class="profile-stats">
+                    <p>follower</p>
+                    <p class="followers"></p>
+
+                </div>
+
+                <div class="profile-stats">
+                    <p>following</p>
+                    <p class="following"></p>
+
+                </div>
+
+            </div>
+
+            <div class="footer-items">
+                <div class="location">
+                    <div>
+                        <i class="fa-solid fa-location-dot "></i>
+                    </div>
+                    <p class="locationuser"></p>
+
+                </div>
+
+                <div class="link">
+                    <div>
+                        <i class="fa-solid fa-link"></i>
+                    </div>
+                    <p class="linkuser"></p>
+
+                </div>
+                <div class="work">
+                    <div class="h-6 w-6">
+                        <i class="fa-solid fa-building"></i>
+                    </div>
+                    <p class="companyname"></p>
+
+                </div>
+
+
+
+
+
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/876b42c968.js" crossorigin="anonymous"></script>
+
+</body>
+<script src="script.js"></script>
+
+</html>

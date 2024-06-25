@@ -226,7 +226,7 @@
 .footer-items .work .companyname {
     font-size: 1rem; /* Adjust text size */
 }
-@media (min-width:300px) and (max-width: 590px) {
+@media (min-width:330px) and (max-width: 590px) {
   .form-container {
       width: 100%;
       transform: translateX(0);
@@ -292,8 +292,10 @@
     transform: translateY(-10px);
   }
   .profile-content{
-    transform: translateY(-55px);
+   transform: translateY(-20px);
     margin-left: 40px;
+    margin-right: 20px;
+    margin-bottom: 5px;
   }
   
 }
